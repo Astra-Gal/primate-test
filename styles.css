@@ -63,13 +63,23 @@ html {
 .card-wrapper {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 33%;
   box-shadow: -1px -1px 4px rgba(0, 0, 0, 0.2);
+  margin-left: 33%;
+  margin-bottom: 20px;
 }
 
 .image-date {
   display: flex;
   position: relative;
+}
+
+.image-date > img {
+  width: 100%;
+}
+
+.cover {
+  object-fit: cover;
 }
 
 .image-date > .card-date {
@@ -80,4 +90,37 @@ html {
   bottom: 5%;
   padding: 3px 13px;
   border-radius: 2px;
+}
+
+.card-title {
+  color: #184269;
+  margin: 5%;
+}
+
+.card-contents {
+  font-weight: lighter;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.card-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #184269;
+  color: #f4f4f4;
+  font-family: inherit;
+  border: none;
+  padding: 0;
+  margin-left: 5%;
+  margin-bottom: 6%;
+  border-radius: 3px;
+  width: 50%;
+}
+
+svg {
+  fill: #f4f4f4;
+  border: none;
+  padding: 0%;
+  background: none;
 }
