@@ -144,9 +144,8 @@ svg {
   }
   .card-wrapper {
     flex-direction: column;
-    width: 30vw;
-    max-height: 60vh;
-    margin-left: 13vw;
+    width: 35vw;
+    max-height: 65vh;
   }
 }
 
