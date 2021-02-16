@@ -64,9 +64,9 @@ html {
 .card-wrapper {
   display: flex;
   flex-direction: column;
-  width: 33vw;
+  width: 70vw;
   box-shadow: -1px -1px 4px rgba(0, 0, 0, 0.2);
-  margin-left: 33vw;
+  margin-left: 15vw;
   margin-bottom: 20px;
 }
 
@@ -106,6 +106,7 @@ html {
 
 .card-button {
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-around;
   background: #184269;
@@ -117,7 +118,7 @@ html {
   margin-left: 5%;
   margin-bottom: 6%;
   border-radius: 3px;
-  width: 50%;
+  width: 60%;
 }
 
 svg {
@@ -127,15 +128,33 @@ svg {
   background: none;
 }
 
-/* @media only screen and (min-width: 600px) {} */
+@media only screen and (min-width: 600px) {
+  .card-wrapper {
+    flex-direction: row;
+    width: 80vw;
+    max-height: 35vh;
+    margin-left: 10vw;
+  }
+}
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .cards-wrapper-grid {
     display: flex;
     flex-wrap: wrap;
   }
   .card-wrapper {
-    width: 25vw;
-    margin-left: 17vw;
+    flex-direction: column;
+    width: 30vw;
+    max-height: 60vh;
+    margin-left: 13vw;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .card-wrapper {
+    flex-direction: row;
+    width: 40vw;
+    max-height: 35vh;
+    margin-left: 5vw;
   }
 }
