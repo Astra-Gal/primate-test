@@ -63,9 +63,9 @@ html {
 .card-wrapper {
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 33vw;
   box-shadow: -1px -1px 4px rgba(0, 0, 0, 0.2);
-  margin-left: 33%;
+  margin-left: 33vw;
   margin-bottom: 20px;
 }
 
@@ -124,4 +124,21 @@ svg {
   border: #f4f4f4;
   padding: 0%;
   background: none;
+}
+
+/* @media only screen and (min-width: 600px) {} */
+
+@media only screen and (min-width: 768px) {
+  .cards-wrapper-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    box-shadow: -1px -1px 4px rgba(0, 0, 0, 0.2);
+    margin-left: 17vw;
+    margin-bottom: 20px;
+  }
 }
