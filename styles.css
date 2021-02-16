@@ -60,3 +60,24 @@ html {
 *::after {
   box-sizing: inherit;
 }
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  box-shadow: -1px -1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.image-date {
+  display: flex;
+  position: relative;
+}
+
+.image-date > .card-date {
+  background: #f4f4f4;
+  color: #184269;
+  position: absolute;
+  left: 4%;
+  bottom: 5%;
+  padding: 3px 13px;
+  border-radius: 2px;
+}
