@@ -112,6 +112,7 @@ html {
   font-family: inherit;
   border: none;
   padding: 0;
+  outline: none;
   margin-left: 5%;
   margin-bottom: 6%;
   border-radius: 3px;
@@ -120,7 +121,7 @@ html {
 
 svg {
   fill: #f4f4f4;
-  border: none;
+  border: #f4f4f4;
   padding: 0%;
   background: none;
 }
