@@ -60,6 +60,7 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
 .card-wrapper {
   display: flex;
   flex-direction: column;
@@ -128,17 +129,13 @@ svg {
 
 /* @media only screen and (min-width: 600px) {} */
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .cards-wrapper-grid {
     display: flex;
     flex-wrap: wrap;
   }
   .card-wrapper {
-    display: flex;
-    flex-direction: column;
     width: 25vw;
-    box-shadow: -1px -1px 4px rgba(0, 0, 0, 0.2);
     margin-left: 17vw;
-    margin-bottom: 20px;
   }
 }
