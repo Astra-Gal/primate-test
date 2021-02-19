@@ -162,3 +162,19 @@ svg {
     margin-left: 5vw;
   }
 }
+
+@media only screen and (min-width: 1600px) {
+  .card-wrapper {
+    max-height: auto;
+    width: 33vw;
+    margin-left: 5vw;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  .card-wrapper {
+    max-height: auto;
+    width: 30vw;
+    margin-left: 1vw;
+  }
+}
